@@ -29,6 +29,12 @@ for (let t = 0; t < 100; t++) {
 
 如果一共添加了4个控制点，就是三阶贝塞尔曲线，是css中的transitation使用的。
 
+## 在canvas中绘制贝塞尔曲线
+
+这是一个例子：http://wss.cool/react-bezier/
+
+项目地址：https://github.com/wangshushuo/react-bezier/
+
 ## 发布到npm
 
 首先打包 `yarn build`
