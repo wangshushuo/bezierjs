@@ -1,6 +1,6 @@
 {
-  "name": "bezierjs",
-  "version": "0.0.0",
+  "name": "@wangshushuo/bezierjs",
+  "version": "0.0.4",
   "description": "",
   "keywords": [],
   "main": "dist/bezierjs.umd.js",
@@ -19,6 +19,7 @@
     "node": ">=6.0.0"
   },
   "scripts": {
+    "publish": "npm publish --access public",
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts && typedoc --out docs --target es6 --theme minimal --mode file src",
