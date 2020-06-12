@@ -1,6 +1,12 @@
 # JavaScript计算贝塞尔曲线
 
-**例子：**
+## 安装
+
+```
+npm install @wangshushuo/bezierjs
+```
+
+## 示例
 
 ```js
 import Bezier from '@wangshushuo/bezierjs'
